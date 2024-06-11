@@ -1,0 +1,13 @@
+{
+    "name": "YT Cleaner",
+    "version": "1.0.0",
+    "description": "Removes the sidebar videos from YT video page.",
+    "manifest_version": 3,
+    "author": "Cesar Bouli",
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
