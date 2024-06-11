@@ -4,6 +4,10 @@ var styles = `
     .ytp-videowall-still {
         display:none;
     }
+
+    .ytp-chrome-bottom .ytd-compact-video-renderer {
+        display: null;
+    }
 `
 var firstExecution = true;
 const setStyles = () => {
