@@ -1,7 +1,8 @@
 var styles = `
     .ytd-reel-shelf-renderer,
     .ytd-compact-video-renderer,
-    .ytp-videowall-still {
+    .ytp-videowall-still,
+    .ytd-compact-playlist-renderer {
         display:none;
     }
 
