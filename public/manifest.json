@@ -6,7 +6,7 @@
     "author": "Cesar Bouli",
     "content_scripts": [
         {
-            "matches": ["*://*.youtube.com/*"],
+            "matches": ["*://www.youtube.com/*"],
             "js": ["content.js"]
         }
     ]
