@@ -6,6 +6,7 @@ var styles = `
         display:none;
     }
 
+    .ytd-masthead *,
     .ytp-chrome-bottom .ytd-compact-video-renderer {
         display: null;
     }
